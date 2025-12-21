@@ -1,0 +1,39 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  banner: ads_logo.png
+  title: "Dendrochronological Data in Archaeology: A Guide to Good Practice"
+  subtitle: Archaeology Data Service, 2016
+  description: 
+  keywords:
+    - archaeology
+    - laser scanning
+  authors:
+    - name: Peter Brewer
+      orcid: https://orcid.org/0000-0001-8972-3210
+      affiliations: Laboratory of Tree-Ring Research, University of Arizona
+    - name: Esther Jansma
+      orcid: https://orcid.org/0000-0003-1690-2976
+      affiliations: Cultural Heritage Agency & Utrecht University
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/b5rq-fk27
+  github: uoy-ads/ads-guides-dendro
+  toc:
+    - file: index.md
+    - file: content/1-Aims.md
+    - file: content/2-Creating.md
+    - file: content/3-Archiving.md
+    - file: content/4-Copyright.md
+    - file: content/5-CaseStudy.md
+    - file: content/6-Bibliography.md
+  exports:
+    - format: pdf
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
